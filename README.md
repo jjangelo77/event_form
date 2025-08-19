@@ -1,2 +1,99 @@
-# event_form
-Formulário para Captação de Leads para o negócio de eventos
+<!DOCTYPE html>
+ <html lang="pt-BR">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Formulário de Eventos</title>
+     <style>
+         body {
+             font-family: sans-serif;
+             background-color: #f4f6f8;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             min-height: 100vh;
+             margin: 0;
+         }
+         .container {
+             background-color: #fff;
+             padding: 30px;
+             border-radius: 8px;
+             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+             width: 400px;
+         }
+         h2 {
+             color: #2c3e50;
+             text-align: center;
+             margin-bottom: 20px;
+         }
+         .form-group {
+             margin-bottom: 15px;
+         }
+         label {
+             display: block;
+             margin-bottom: 5px;
+             color: #3498db; /* Azul */
+             font-weight: bold;
+         }
+         input,
+         select {
+             width: 100%;
+             padding: 10px;
+             border: 1px solid #3498db; /* Azul */
+             border-radius: 4px;
+             box-sizing: border-box;
+         }
+         button {
+             background-color: #3498db; /* Azul */
+             color: white;
+             padding: 12px 20px;
+             border: none;
+             border-radius: 4px;
+             cursor: pointer;
+             width: 100%;
+             font-size: 16px;
+             transition: background-color 0.3s ease;
+         }
+         button:hover {
+             background-color: #2980b9;
+         }
+         .message {
+             text-align: center;
+             margin-top: 15px;
+             color: #777;
+             font-size: 0.9em;
+         }
+     </style>
+ </head>
+ <body>
+     <div class="container">
+         <h2>Formulário de Interesse - Eventos</h2>
+         <form action="#" method="POST"> <div class="form-group">
+                 <label for="nome">Nome Completo:</label>
+                 <input type="text" id="nome" name="nome" required>
+             </div>
+             <div class="form-group">
+                 <label for="email">E-mail:</label>
+                 <input type="email" id="email" name="email" required>
+             </div>
+             <div class="form-group">
+                 <label for="whatsapp">WhatsApp:</label>
+                 <input type="tel" id="whatsapp" name="whatsapp" placeholder="Ex: 55859xxxxxxxxx" required>
+             </div>
+             <div class="form-group">
+                 <label for="tipo_evento">Tipo de Evento:</label>
+                 <select id="tipo_evento" name="tipo_evento" required>
+                     <option value="" disabled selected>Selecione o tipo de evento</option>
+                     <option value="casamento">Casamento</option>
+                     <option value="debutantes">Debutantes</option>
+                     <option value="bodas">Bodas</option>
+                     <option value="festas">Festas em Geral</option>
+                     <option value="corporativo">Corporativo</option>
+                 </select>
+             </div>
+             <button type="submit">Enviar Formulário e entraremos em contato em seguida</button>
+             <p class="message">Aguarde nosso contato em breve!</p>
+         </form>
+     </div>
+ </body>
+ </html>

@@ -1,204 +1,203 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vila Pau Brasil Eventos - Formulário de Interesse</title>
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #f4f6f8;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-        }
-        .container {
-            background-color: #5a6b51; /* Fundo do formulário em verde mais escuro */
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-            width: 450px;
-            max-width: 90%;
-            text-align: center;
-        }
-        .logo {
-            margin-bottom: 20px;
-        }
-        .logo img {
-            max-width: 180px;
-            height: auto;
-            filter: brightness(0) invert(1);
-        }
-        h2 {
-            color: #FFFFFF; /* Título em branco para contraste */
-            text-align: center;
-            margin-bottom: 25px;
-            font-weight: 600;
-            font-size: 1.8em;
-        }
-        .form-group {
-            margin-bottom: 20px;
-            text-align: left;
-        }
-        label {
-            display: block;
-            margin-bottom: 8px;
-            color: #FFFFFF; /* Texto da label em branco */
-            font-weight: 500;
-            font-size: 1.05em;
-        }
-        input,
-        select {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #B5C69F;
-            border-radius: 6px;
-            box-sizing: border-box;
-            font-size: 1em;
-            background-color: #fcfcfc;
-            color: #333;
-        }
-        input:focus,
-        select:focus {
-            border-color: #4A5B3F;
-            outline: none;
-            box-shadow: 0 0 5px rgba(74, 91, 63, 0.5);
-        }
-        button {
-            background-color: #B5C69F;
-            color: #4A5B3F;
-            padding: 14px 25px;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            width: 100%;
-            font-size: 1.1em;
-            font-weight: 700;
-            transition: background-color 0.3s ease, transform 0.2s ease;
-            letter-spacing: 0.5px;
-        }
-        button:hover {
-            background-color: #4A5B3F;
-            transform: translateY(-2px);
-            color: white;
-        }
-        .message {
-            text-align: center;
-            margin-top: 20px;
-            color: #FFFFFF; /* Mensagem em branco */
-            font-size: 1em;
-            font-weight: 500;
-        }
-        @media (max-width: 600px) {
-            .container {
-                width: 95%;
-                padding: 20px;
-            }
-        }
-    </style>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vila Pau Brasil Eventos - Formulário de Interesse</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f6f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #5a6b51; /* Fundo do formulário em verde mais escuro */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+            width: 450px;
+            max-width: 90%;
+            text-align: center;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+        .logo img {
+            max-width: 180px;
+            height: auto;
+            filter: brightness(0) invert(1);
+        }
+        h2 {
+            color: #FFFFFF; /* Título em branco para contraste */
+            text-align: center;
+            margin-bottom: 25px;
+            font-weight: 600;
+            font-size: 1.8em;
+        }
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #FFFFFF; /* Texto da label em branco */
+            font-weight: 500;
+            font-size: 1.05em;
+        }
+        input,
+        select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #B5C69F;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-size: 1em;
+            background-color: #fcfcfc;
+            color: #333;
+        }
+        input:focus,
+        select:focus {
+            border-color: #4A5B3F;
+            outline: none;
+            box-shadow: 0 0 5px rgba(74, 91, 63, 0.5);
+        }
+        button {
+            background-color: #B5C69F;
+            color: #4A5B3F;
+            padding: 14px 25px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1.1em;
+            font-weight: 700;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            letter-spacing: 0.5px;
+        }
+        button:hover {
+            background-color: #4A5B3F;
+            transform: translateY(-2px);
+            color: white;
+        }
+        .message {
+            text-align: center;
+            margin-top: 20px;
+            color: #FFFFFF; /* Mensagem em branco */
+            font-size: 1em;
+            font-weight: 500;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+                padding: 20px;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="logo">
-            <img src="https://midias.iasolution.cloud/logovilapaubrasil.png" alt="Vila Pau Brasil Logo">
-        </div>
-        <h2>Formulário de Interesse</h2>
-        <form id="event-form">
-            <div class="form-group">
-                <label for="nome">Nome Completo:</label>
-                <input type="text" id="nome" name="nome" required>
-            </div>
-            <div class="form-group">
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="whatsapp">WhatsApp: 🇧🇷</label>
-                <input type="tel" id="whatsapp" name="whatsapp" placeholder="Ex: 119********" required>
-            </div>
-            <div class="form-group">
-                <label for="tipo_evento">Tipo de Evento:</label>
-                <select id="tipo_evento" name="tipo_evento" required>
-                    <option value="" disabled selected>Selecione o tipo de evento</option>
-                    <option value="casamento">Casamento</option>
-                    <option value="debutantes">Debutantes</option>
-                    <option value="bodas">Bodas</option>
-                    <option value="festas">Festas</option>
-                    <option value="corporativo">Corporativo</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="data_estimada">Data Estimada:</label>
-                <input type="text" id="data_estimada" name="data_estimada" placeholder="DD/MM/AAAA">
-            </div>
-            <div class="form-group">
-                <label for="hora_estimada">Hora Estimada:</label>
-                <input type="text" id="hora_estimada" name="hora_estimada" placeholder="Ex: 20:00">
-            </div>
-            <div class="form-group">
-                <label for="convidados_estimados">Número de Convidados:</label>
-                <select id="convidados_estimados" name="convidados_estimados">
-                    <option value="" disabled selected>Selecione a faixa de convidados</option>
-                    <option value="entre 50 e 70 convidados">entre 50 e 70 convidados</option>
-                    <option value="entre 70 e 100 convidados">entre 70 e 100 convidados</option>
-                    <option value="entre 100 e 150 convidados">entre 100 e 150 convidados</option>
-                    <option value="acima de 150 convidados">acima de 150 convidados</option>
-                </select>
-            </div>
-            <button type="submit">Enviar Formulário</button>
-            <p class="message" id="form-message">Em instantes entraremos em contato!</p>
-        </form>
-    </div>
+    <div class="container">
+        <div class="logo">
+            <img src="https://midias.iasolution.cloud/logovilapaubrasil.png" alt="Vila Pau Brasil Logo">
+        </div>
+        <h2>Formulário de Interesse</h2>
+        <form id="event-form">
+            <div class="form-group">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="whatsapp">WhatsApp: 🇧🇷</label>
+                <input type="tel" id="whatsapp" name="whatsapp" placeholder="Ex: 119********" required>
+            </div>
+            <div class="form-group">
+                <label for="tipo_evento">Tipo de Evento:</label>
+                <select id="tipo_evento" name="tipo_evento" required>
+                    <option value="" disabled selected>Selecione o tipo de evento</option>
+                    <option value="casamento">Casamento</option>
+                    <option value="debutantes">Debutantes</option>
+                    <option value="bodas">Bodas</option>
+                    <option value="festas">Festas</option>
+                    <option value="corporativo">Corporativo</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="data_estimada">Data Estimada:</label>
+                <input type="date" id="data_estimada" name="data_estimada">
+            </div>
+            <div class="form-group">
+                <label for="convidados_estimados">Número de Convidados:</label>
+                <select id="convidados_estimados" name="convidados_estimados">
+                    <option value="" disabled selected>Selecione a faixa de convidados</option>
+                    <option value="entre 50 e 70 convidados">entre 50 e 70 convidados</option>
+                    <option value="entre 70 e 100 convidados">entre 70 e 100 convidados</option>
+                    <option value="entre 100 e 150 convidados">entre 100 e 150 convidados</option>
+                    <option value="acima de 150 convidados">acima de 150 convidados</option>
+                </select>
+            </div>
+            <button type="submit">Enviar Formulário</button>
+            <p class="message" id="form-message">Em instantes entraremos em contato!</p>
+        </form>
+    </div>
 
-    <script>
-        const form = document.getElementById('event-form');
-        const messageElement = document.getElementById('form-message');
+    <script>
+        const form = document.getElementById('event-form');
+        const messageElement = document.getElementById('form-message');
 
-        function formatWhatsAppNumber(number) {
-            let cleanNumber = number.replace(/\D/g, '');
-            // Se o número não começar com 55 e tiver 8 ou mais dígitos, adiciona 55
-            if (cleanNumber.length >= 8 && !cleanNumber.startsWith('55')) {
-                cleanNumber = '55' + cleanNumber;
-            }
-            // Se o número tem 12 dígitos (55 + DDD + 8 dígitos), insere o 9
-            if (cleanNumber.startsWith('55') && cleanNumber.length === 12) {
-                cleanNumber = cleanNumber.substring(0, 4) + '9' + cleanNumber.substring(4);
-            }
-            // Se o número tem 10 dígitos (DDD + 8 dígitos) e não começa com 55, adiciona 55 e o 9
-            else if (!cleanNumber.startsWith('55') && cleanNumber.length === 10) {
-                 cleanNumber = '55' + cleanNumber.substring(0, 2) + '9' + cleanNumber.substring(2);
-            }
-            return cleanNumber;
-        }
+        function formatWhatsAppNumber(number) {
+            let cleanNumber = number.replace(/\D/g, '');
+            // Se o número não começar com 55 e tiver 8 ou mais dígitos, adiciona 55
+            if (cleanNumber.length >= 8 && !cleanNumber.startsWith('55')) {
+                cleanNumber = '55' + cleanNumber;
+            }
+            // Se o número tem 12 dígitos (55 + DDD + 8 dígitos), insere o 9
+            if (cleanNumber.startsWith('55') && cleanNumber.length === 12) {
+                cleanNumber = cleanNumber.substring(0, 4) + '9' + cleanNumber.substring(4);
+            }
+            // Se o número tem 10 dígitos (DDD + 8 dígitos) e não começa com 55, adiciona 55 e o 9
+            else if (!cleanNumber.startsWith('55') && cleanNumber.length === 10) {
+                 cleanNumber = '55' + cleanNumber.substring(0, 2) + '9' + cleanNumber.substring(2);
+            }
+            return cleanNumber;
+        }
 
-        form.addEventListener('submit', async (event) => {
-            event.preventDefault();
+        form.addEventListener('submit', async (event) => {
+            event.preventDefault();
 
-            const formData = new FormData(form);
-            const data = Object.fromEntries(formData.entries());
-            data.whatsapp = formatWhatsAppNumber(data.whatsapp);
+            const formData = new FormData(form);
+            const data = Object.fromEntries(formData.entries());
+            data.whatsapp = formatWhatsAppNumber(data.whatsapp);
 
-            try {
-                const response = await fetch('https://n8n.iasolution.cloud/webhook/leads_eventos', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(data)
-                });
+            // Remove o campo hora_estimada, que foi retirado do formulário
+            delete data.hora_estimada;
 
-                if (response.ok) {
-                    messageElement.textContent = 'Formulário enviado com sucesso! Entraremos em contato em seguida.';
-                    form.reset();
-                } else {
-                    messageElement.textContent = 'Erro ao enviar o formulário. Tente novamente.';
-                }
-            } catch (error) {
-                console.error('Erro na requisição:', error);
-                messageElement.textContent = 'Erro de conexão. Verifique sua rede.';
-            }
-        });
-    </script>
+            try {
+                const response = await fetch('https://n8n.iasolution.cloud/webhook/leads_eventos', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+
+                if (response.ok) {
+                    messageElement.textContent = 'Formulário enviado com sucesso! Entraremos em contato em seguida.';
+                    form.reset();
+                } else {
+                    messageElement.textContent = 'Erro ao enviar o formulário. Tente novamente.';
+                }
+            } catch (error) {
+                console.error('Erro na requisição:', error);
+                messageElement.textContent = 'Erro de conexão. Verifique sua rede.';
+            }
+        });
+    </script>
 </body>
 </html>
